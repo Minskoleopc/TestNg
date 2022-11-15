@@ -1,37 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-12T06:50:35 IST" name="Default suite" finished-at="2022-11-12T06:50:50 IST" duration-ms="14583">
+  <suite started-at="2022-11-15T06:51:45 IST" name="registration" finished-at="2022-11-15T06:52:06 IST" duration-ms="21078">
     <groups>
+      <group name="regression">
+        <method signature="testR5.addTOCart2()[pri:4, instance:test.com.testR5@12468a38]" name="addTOCart2" class="test.com.testR5"/>
+        <method signature="testR5.logOut()[pri:2, instance:test.com.testR5@12468a38]" name="logOut" class="test.com.testR5"/>
+      </group> <!-- regression -->
+      <group name="userRegistration">
+        <method signature="testR5.addTOCart1()[pri:3, instance:test.com.testR5@12468a38]" name="addTOCart1" class="test.com.testR5"/>
+        <method signature="testR5.addTOCart2()[pri:4, instance:test.com.testR5@12468a38]" name="addTOCart2" class="test.com.testR5"/>
+        <method signature="testR5.addTOCart3()[pri:5, instance:test.com.testR5@12468a38]" name="addTOCart3" class="test.com.testR5"/>
+        <method signature="testR5.logOut()[pri:2, instance:test.com.testR5@12468a38]" name="logOut" class="test.com.testR5"/>
+        <method signature="testR5.loginTest()[pri:1, instance:test.com.testR5@12468a38]" name="loginTest" class="test.com.testR5"/>
+      </group> <!-- userRegistration -->
+      <group name="loginF">
+        <method signature="testR5.logOut()[pri:2, instance:test.com.testR5@12468a38]" name="logOut" class="test.com.testR5"/>
+        <method signature="testR5.loginTest()[pri:1, instance:test.com.testR5@12468a38]" name="loginTest" class="test.com.testR5"/>
+      </group> <!-- loginF -->
+      <group name="addC">
+        <method signature="testR5.addTOCart1()[pri:3, instance:test.com.testR5@12468a38]" name="addTOCart1" class="test.com.testR5"/>
+        <method signature="testR5.addTOCart2()[pri:4, instance:test.com.testR5@12468a38]" name="addTOCart2" class="test.com.testR5"/>
+        <method signature="testR5.addTOCart3()[pri:5, instance:test.com.testR5@12468a38]" name="addTOCart3" class="test.com.testR5"/>
+      </group> <!-- addC -->
     </groups>
-    <test started-at="2022-11-12T06:50:35 IST" name="Default test" finished-at="2022-11-12T06:50:50 IST" duration-ms="14583">
-      <class name="test.com.testR3">
-        <test-method is-config="true" signature="LaunchBroswerChrome()[pri:0, instance:test.com.testR3@1ddf84b8]" started-at="2022-11-12T06:50:35 IST" name="LaunchBroswerChrome" finished-at="2022-11-12T06:50:43 IST" duration-ms="7626" status="PASS">
+    <test started-at="2022-11-15T06:51:45 IST" name="user registration" finished-at="2022-11-15T06:52:06 IST" duration-ms="21078">
+      <class name="test.com.testR2">
+        <test-method is-config="true" signature="dbConnec()[pri:0, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:51:45 IST" name="dbConnec" finished-at="2022-11-15T06:51:45 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchBroswerChrome -->
-        <test-method signature="loginTest()[pri:1, instance:test.com.testR3@1ddf84b8]" started-at="2022-11-12T06:50:43 IST" name="loginTest" description="Verify the title of page" finished-at="2022-11-12T06:50:43 IST" duration-ms="88" status="PASS">
+        </test-method> <!-- dbConnec -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:52:06 IST" name="OpenBrowser" finished-at="2022-11-15T06:52:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="loginTest()[pri:1, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:52:06 IST" name="loginTest" description="This is login testcase" finished-at="2022-11-15T06:52:06 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:test.com.testR3@1ddf84b8]" started-at="2022-11-12T06:50:43 IST" name="ClosingBrowser" finished-at="2022-11-12T06:50:44 IST" duration-ms="781" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:52:06 IST" name="closeBrowser" finished-at="2022-11-15T06:52:06 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClosingBrowser -->
-        <test-method is-config="true" signature="LaunchBroswerChrome()[pri:0, instance:test.com.testR3@1ddf84b8]" started-at="2022-11-12T06:50:44 IST" name="LaunchBroswerChrome" finished-at="2022-11-12T06:50:49 IST" duration-ms="5008" status="PASS">
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:52:06 IST" name="OpenBrowser" finished-at="2022-11-15T06:52:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="addTOCart()[pri:2, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:52:06 IST" name="addTOCart" description="This is added to card testcase" finished-at="2022-11-15T06:52:06 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTOCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:52:06 IST" name="closeBrowser" finished-at="2022-11-15T06:52:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:52:06 IST" name="OpenBrowser" finished-at="2022-11-15T06:52:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="logOut()[pri:3, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:52:06 IST" name="logOut" description="This is logout testcase" finished-at="2022-11-15T06:52:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:52:06 IST" name="closeBrowser" finished-at="2022-11-15T06:52:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="dbDisconnect()[pri:0, instance:test.com.testR2@72d1ad2e]" started-at="2022-11-15T06:52:06 IST" name="dbDisconnect" finished-at="2022-11-15T06:52:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbDisconnect -->
+      </class> <!-- test.com.testR2 -->
+      <class name="test.com.testR3">
+        <test-method is-config="true" signature="LaunchBroswerChrome()[pri:0, instance:test.com.testR3@7ec7ffd3]" started-at="2022-11-15T06:51:45 IST" name="LaunchBroswerChrome" finished-at="2022-11-15T06:51:54 IST" duration-ms="8762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBroswerChrome -->
-        <test-method signature="validatePageHeader()[pri:2, instance:test.com.testR3@1ddf84b8]" started-at="2022-11-12T06:50:49 IST" name="validatePageHeader" description="Verify header Text" finished-at="2022-11-12T06:50:49 IST" duration-ms="168" status="PASS">
+        <test-method signature="loginTest()[pri:1, instance:test.com.testR3@7ec7ffd3]" started-at="2022-11-15T06:51:54 IST" name="loginTest" description="Verify the title of page" finished-at="2022-11-15T06:51:54 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:test.com.testR3@7ec7ffd3]" started-at="2022-11-15T06:51:54 IST" name="ClosingBrowser" finished-at="2022-11-15T06:51:55 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+        <test-method is-config="true" signature="LaunchBroswerChrome()[pri:0, instance:test.com.testR3@7ec7ffd3]" started-at="2022-11-15T06:51:55 IST" name="LaunchBroswerChrome" finished-at="2022-11-15T06:52:00 IST" duration-ms="4621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBroswerChrome -->
+        <test-method signature="validatePageHeader()[pri:2, instance:test.com.testR3@7ec7ffd3]" started-at="2022-11-15T06:52:00 IST" name="validatePageHeader" description="Verify header Text" finished-at="2022-11-15T06:52:00 IST" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePageHeader -->
-        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:test.com.testR3@1ddf84b8]" started-at="2022-11-12T06:50:49 IST" name="ClosingBrowser" finished-at="2022-11-12T06:50:50 IST" duration-ms="778" status="PASS">
+        <test-method is-config="true" signature="ClosingBrowser()[pri:0, instance:test.com.testR3@7ec7ffd3]" started-at="2022-11-15T06:52:00 IST" name="ClosingBrowser" finished-at="2022-11-15T06:52:01 IST" duration-ms="882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosingBrowser -->
       </class> <!-- test.com.testR3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="test.com.testR4">
+        <test-method signature="loginTest()[pri:0, instance:test.com.testR4@595b007d]" started-at="2022-11-15T06:52:01 IST" name="loginTest" finished-at="2022-11-15T06:52:06 IST" duration-ms="5680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- test.com.testR4 -->
+      <class name="test.com.testR5">
+        <test-method signature="loginTest()[pri:1, instance:test.com.testR5@12468a38]" started-at="2022-11-15T06:51:45 IST" name="loginTest" description="This is login testcase" finished-at="2022-11-15T06:51:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logOut()[pri:2, instance:test.com.testR5@12468a38]" started-at="2022-11-15T06:51:45 IST" name="logOut" description="This is logout testcase" finished-at="2022-11-15T06:51:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="addTOCart1()[pri:3, instance:test.com.testR5@12468a38]" started-at="2022-11-15T06:51:45 IST" name="addTOCart1" description="This is added to card testcase" finished-at="2022-11-15T06:51:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTOCart1 -->
+        <test-method signature="addTOCart2()[pri:4, instance:test.com.testR5@12468a38]" started-at="2022-11-15T06:51:45 IST" name="addTOCart2" description="This is added to card testcase" finished-at="2022-11-15T06:51:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTOCart2 -->
+        <test-method signature="addTOCart3()[pri:5, instance:test.com.testR5@12468a38]" started-at="2022-11-15T06:51:45 IST" name="addTOCart3" description="This is added to card testcase" finished-at="2022-11-15T06:51:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTOCart3 -->
+      </class> <!-- test.com.testR5 -->
+    </test> <!-- user registration -->
+  </suite> <!-- registration -->
+  <suite started-at="2022-11-15T06:52:07 IST" name="MasterSuite" finished-at="2022-11-15T06:52:07 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- MasterSuite -->
+  <suite started-at="2022-11-15T06:51:45 IST" name="basic" finished-at="2022-11-15T06:51:45 IST" duration-ms="206">
+    <groups>
+    </groups>
+    <test started-at="2022-11-15T06:51:45 IST" name="basic" finished-at="2022-11-15T06:51:45 IST" duration-ms="206">
+      <class name="test.com.testR">
+        <test-method signature="loginTest()[pri:1, instance:test.com.testR@50a638b5]" started-at="2022-11-15T06:51:45 IST" name="loginTest" finished-at="2022-11-15T06:51:45 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logOut()[pri:2, instance:test.com.testR@50a638b5]" started-at="2022-11-15T06:51:45 IST" name="logOut" finished-at="2022-11-15T06:51:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="addTOCart()[pri:3, instance:test.com.testR@50a638b5]" started-at="2022-11-15T06:51:45 IST" name="addTOCart" finished-at="2022-11-15T06:51:45 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTOCart -->
+      </class> <!-- test.com.testR -->
+    </test> <!-- basic -->
+  </suite> <!-- basic -->
 </testng-results>

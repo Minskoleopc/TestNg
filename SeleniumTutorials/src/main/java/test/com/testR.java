@@ -21,11 +21,6 @@ public class testR {
 	}
 	
 	
-	
-	
-	
-	
-	
 
 	
 	// Arrangement 
@@ -33,9 +28,6 @@ public class testR {
 	// Actions 
 	
 	// Assertion
-	
-	
-	
 	
 	
 	
