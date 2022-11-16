@@ -1,0 +1,10 @@
+package test.com;
+
+public class Snippet {
+	@Test(priority =3)
+		public void logOut() {
+			System.out.println("Logout Successful");
+		}
+	
+}
+

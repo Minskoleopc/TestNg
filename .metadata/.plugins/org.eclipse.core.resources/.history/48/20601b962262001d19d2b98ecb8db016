@@ -1,0 +1,36 @@
+package test.com;
+
+import org.testng.annotations.Test;
+
+public class testR {
+	
+
+	@Test
+	public void loginTest() {
+		System.out.println("Login successful");
+	}
+	
+
+	@Test
+	public void logOut() {
+		System.out.println("Logout Successful");
+	}
+	
+	
+	
+	
+
+	
+	// Arrangement 
+	
+	// Actions 
+	
+	// Assertion
+	
+	
+	
+	
+	
+	
+
+}

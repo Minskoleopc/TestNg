@@ -6,6 +6,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import commom.com.BeforeMethods;
+
 
 // feature testcase (login)
 // smoke test / sanity testcase
@@ -13,7 +15,7 @@ import org.testng.annotations.Test;
 
 
 @Test(groups= "userRegistration")
-public class testR5 {
+public class testR5 extends BeforeMethods {
 	@Test(priority = 1, description = "This is login testcase",groups = "loginF")
 	public void loginTest() {
 		System.out.println("Login successful");

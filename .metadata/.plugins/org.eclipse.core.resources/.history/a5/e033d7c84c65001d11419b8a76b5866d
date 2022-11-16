@@ -1,0 +1,15 @@
+package commom.com;
+
+import org.testng.annotations.BeforeClass;
+
+public class BeforeMethods {
+	
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("Before class Method");
+	}
+	
+	@AfterClass
+	
+
+}

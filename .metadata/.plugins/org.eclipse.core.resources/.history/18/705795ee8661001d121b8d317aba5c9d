@@ -1,0 +1,12 @@
+package test.com;
+
+
+public class testR {
+	
+	@Test
+	public static void hello() {
+		System.out.println("hello");
+	}
+	
+
+}

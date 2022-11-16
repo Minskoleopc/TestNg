@@ -1,0 +1,10 @@
+package commom.com;
+
+public class BeforeMethods {
+	
+	@BeforeClass
+	public void beforeClass() {
+		
+	}
+
+}

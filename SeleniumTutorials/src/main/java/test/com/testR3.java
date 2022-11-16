@@ -9,7 +9,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class testR3 {
+import commom.com.BeforeMethods;
+
+public class testR3 extends BeforeMethods {
 	ChromeDriver driver ;
 	
 	@BeforeMethod

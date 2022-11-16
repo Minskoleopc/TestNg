@@ -6,7 +6,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class testR2 {
+import commom.com.BeforeMethods;
+
+public class testR2 extends BeforeMethods {
 	
 	
 	// @BeforeTest
@@ -19,16 +21,16 @@ public class testR2 {
 	// @AfterSuite
 	// @BeforeSuite
 	
-	@BeforeTest
-	public void dbConnec(){
-		System.out.println("Db Connecttion");
-	}
-	
-	@AfterTest
-	public void dbDisconnect(){
-		System.out.println("Db Connection closed");
-	}
-	
+//	@BeforeTest
+//	public void dbConnec(){
+//		System.out.println("Db Connecttion");
+//	}
+//	
+//	@AfterTest
+//	public void dbDisconnect(){
+//		System.out.println("Db Connection closed");
+//	}
+//	
 	@BeforeMethod
 	public void OpenBrowser() {
 		System.out.println("Broswer open successfully");

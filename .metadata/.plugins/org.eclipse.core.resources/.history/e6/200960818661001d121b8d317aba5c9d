@@ -1,0 +1,8 @@
+
+public class Test {
+
+	@Test
+	public static void hello() {
+		System.out.println("hello");
+	}
+}

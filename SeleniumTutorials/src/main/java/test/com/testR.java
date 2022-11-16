@@ -2,7 +2,9 @@ package test.com;
 
 import org.testng.annotations.Test;
 
-public class testR {
+import commom.com.BeforeMethods;
+
+public class testR extends BeforeMethods {
 	
 	@Test(priority =1)
 	public void loginTest() {

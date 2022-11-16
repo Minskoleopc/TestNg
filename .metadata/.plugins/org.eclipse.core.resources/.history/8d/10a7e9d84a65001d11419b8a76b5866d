@@ -1,0 +1,18 @@
+package test.com;
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+
+// feature testcase (login)
+// smoke test / sanity testcase
+// regression testcases
+
+
+@Test(groups= "userRegistration")
+public class testR6 {
+	
+}

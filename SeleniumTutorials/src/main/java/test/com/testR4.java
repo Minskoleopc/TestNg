@@ -10,7 +10,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class testR4 {
+import commom.com.BeforeMethods;
+
+public class testR4 extends BeforeMethods {
 	ChromeDriver driver;
 
 	@Test
@@ -43,7 +45,7 @@ public class testR4 {
 		System.out.println("Closing browser");
 		driver.quit();
 		
-		//softassert.assertAll();
+		softassert.assertAll();
 
 	}
 
