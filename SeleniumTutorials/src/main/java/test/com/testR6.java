@@ -8,10 +8,10 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import commom.com.BeforeMethods;
-
+import commom.com.BeforeMethodsTwo;
 
 @Test(groups= "userRegistration")
-public class testR6  extends BeforeMethods{
+public class testR6  extends BeforeMethodsTwo{
 	
 	boolean database = false;
 	
@@ -23,7 +23,7 @@ public class testR6  extends BeforeMethods{
 	@Test
 	public void skipTest2() {
 		System.out.println("Test case one");
-		throw new SkipException("Skipping the TestCase");
+		//throw new SkipException("Skipping the TestCase");
 	}
 	
 	@Test
@@ -34,7 +34,7 @@ public class testR6  extends BeforeMethods{
 		}
 		else {
 			System.out.println("skiping the testcase as db Connection is failed");
-			throw new SkipException("Skipping the TestCase");
+			//throw new SkipException("Skipping the TestCase");
 		}
 		
 	}
