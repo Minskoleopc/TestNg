@@ -16,8 +16,7 @@ public class testR8 extends BeforeMethodsTwo{
 	
 	
 	
-	
-	@DataProvider
+	@DataProvider(name = "data")
 	public Object[][] dataset2(){
 		return new Object[][] {
 			{"user1","pwd1"},
@@ -28,7 +27,6 @@ public class testR8 extends BeforeMethodsTwo{
 		} ;
 		
 	}
-	
 	
 	@DataProvider(name ="loginCredentials")
 	public Object[][] dataset() {
