@@ -41,8 +41,6 @@ public class testR10 extends BeforeMethodsTwo{
 			
 		}
 		
-		
-	
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.cssSelector("#er-name")).sendKeys(username);
