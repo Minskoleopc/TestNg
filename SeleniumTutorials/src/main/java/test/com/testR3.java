@@ -32,15 +32,6 @@ public class testR3 extends BeforeMethods {
 	
 	public void loginTest() {
 		
-		// complete  test
-		// Arrangement
-//		System.setProperty("webdriver.chrome.driver", "C://Users//ankurjain//Documents//chromedriver.exe");
-//		ChromeDriver driver = new ChromeDriver();
-//		driver.get("http://www.webdriveruniversity.com/Data-Table/index.html");
-//		driver.manage().window().maximize();
-		
-		// Actions
-		
 		
 		String title = driver.getTitle();
 		String expectedTitle = "WebDriver | Data Tables";
@@ -60,14 +51,7 @@ public class testR3 extends BeforeMethods {
 	}
 	
 	
-	// 2 people - 2 People
-	
-	//Sahadev // Murari 
-	//Manjit  // Kabindra
-	
-	// Introduction 
-	// you role and responsibilites
-	
+
 	
 	
 	

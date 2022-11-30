@@ -1,0 +1,24 @@
+package commom.com;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BaseClass {
+	public static WebDriver driver = null;
+
+	@BeforeSuite
+	public void beforeEvertSuite() {
+		
+		WebDriverManager.Chromedriver.setup();
+		driver = new ChromeDriver();
+	}
+
+	@AfterSuite
+	public void afterEvertSuite() {
+		System.out.println("After Every Suite");
+		driver.close();
+	}
+}

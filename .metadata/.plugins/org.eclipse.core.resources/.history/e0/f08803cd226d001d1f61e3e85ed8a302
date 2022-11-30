@@ -1,0 +1,22 @@
+package commom.com;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
+public class BaseClass {
+	
+	public static WebDriver driver;
+	
+	@BeforeSuite
+	public void beforeEvertSuite() {
+		System.out.println("BeforeEvery Suite");
+		
+		
+	}
+	
+	@AfterSuite
+	public void afterEvertSuite() {
+		System.out.println("After Every Suite");
+	}
+}

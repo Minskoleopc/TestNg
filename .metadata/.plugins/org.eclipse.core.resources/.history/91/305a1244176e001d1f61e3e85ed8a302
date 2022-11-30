@@ -1,0 +1,25 @@
+package commom.com;
+
+public class Polymorphism {
+
+	
+	// same class , same method , different signature
+	
+	public static void Addition(int x , int y) {
+		System.out.println(x + y);
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+	
+	
+	
+	
+}

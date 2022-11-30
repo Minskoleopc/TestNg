@@ -1,8 +1,0 @@
-
-public class Test {
-
-	@Test
-	puhblic static hello() {
-		System.out.println("hello");
-	}
-}

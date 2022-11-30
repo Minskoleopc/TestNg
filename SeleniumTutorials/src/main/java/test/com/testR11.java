@@ -39,11 +39,7 @@ public class testR11 extends BeforeMethodsTwo {
 		System.setProperty("webdriver.chrome.driver", "C://Users//ankurjain//Documents//chromedriver.exe");
 		driver = new ChromeDriver();
 
-		
-		Date currentDate = new Date();
-		String currentDateS = currentDate.toString().replace(" ","-").replace(":","-");
-		
-		System.out.println(currentDateS);
+		//System.out.println(currentDateS);
 		
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();
@@ -52,7 +48,8 @@ public class testR11 extends BeforeMethodsTwo {
 		driver.findElement(By.cssSelector("#login-button")).click();
 
 		UUID uuid = UUID.randomUUID();
-
+		Date currentDate = new Date();
+		String currentDateS = currentDate.toString().replace(" ","-").replace(":","-");
 		TakesScreenshot scrShot = ((TakesScreenshot) driver);
 		File SourceFile = scrShot.getScreenshotAs(OutputType.FILE);
 		//File DestFile = new File(".//screenshort//screenshortB"+uuid+".png");
