@@ -1,0 +1,16 @@
+package commom.com;
+
+public class GrandFather {
+	
+	// Interitance multi-level
+	
+	String firstName;
+	String lastName;
+	public GrandFather(String fn , String ln) {
+		
+		
+	}
+
+	
+	
+}

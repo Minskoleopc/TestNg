@@ -1,0 +1,13 @@
+package commom.com;
+
+public class GrandFather {
+	
+	// Interitance multi-level
+	
+	public GrandFather() {
+		
+	}
+
+	
+	
+}

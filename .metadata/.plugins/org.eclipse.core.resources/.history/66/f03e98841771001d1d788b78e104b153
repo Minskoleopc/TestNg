@@ -1,0 +1,17 @@
+package commom.com;
+
+public class FatherSI {
+	
+	String firstName;
+	String lastName;
+	
+	public FatherSI(String firstName , String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+	
+	public void displayName() {
+		System.out.println(this.firstName + this.lastName);
+	}
+
+}

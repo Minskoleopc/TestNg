@@ -1,0 +1,51 @@
+package commom.com;
+
+public class FatherSI {
+	
+	String firstName;
+	String lastName;
+	
+	public FatherSI(String firstName , String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+	
+	public void displayName() {
+		System.out.println(this.firstName + this.lastName);
+	}
+
+}
+class SonS extends  FatherSI{
+	
+	String sName;
+
+	public SonS(String firstName , String lastName, String sname) {
+		super(firstName,lastName);
+		this.sName = sname;
+		
+	}
+	
+	public void displayName() {
+		System.out.println(this.sName + this.lastName);
+	}
+
+}
+
+class DaughterS extends  FatherSI{
+	
+	String sName;
+
+	public SonS(String firstName , String lastName, String sname) {
+		super(firstName,lastName);
+		this.sName = sname;
+		
+	}
+	
+	public void displayName() {
+		System.out.println(this.sName + this.lastName);
+	}
+
+}
+
+
+

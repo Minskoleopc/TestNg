@@ -1,0 +1,10 @@
+package commom.com;
+
+public class FatherSI {
+	
+	String fatherName;
+	public FatherSI() {
+		
+	}
+
+}

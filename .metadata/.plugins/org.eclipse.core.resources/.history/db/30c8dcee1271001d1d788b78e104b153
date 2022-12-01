@@ -1,0 +1,18 @@
+package commom.com;
+
+public class Student {
+	
+	public Student() {
+		
+		
+	}
+	
+		
+	// student   -- firstName lastName SSN
+	
+	// teacher  --  firstName lastName SSN , salary
+	
+	// then become professor ---  firstName lastName SSN , salary , spec.
+	
+
+}

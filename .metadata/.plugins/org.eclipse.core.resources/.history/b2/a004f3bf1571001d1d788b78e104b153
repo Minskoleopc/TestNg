@@ -1,0 +1,29 @@
+package commom.com;
+public class GrandFather {
+	
+	// Interitance multi-level
+	
+	String firstName;
+	String lastName;
+
+	public GrandFather(String fn, String ln) {
+		this.firstName = fn;
+		this.lastName = ln;
+	}
+	
+	public void displayName() {
+		System.out.println(this.firstName + this.lastName);
+	}
+
+}
+
+class Father extends GrandFather {
+
+	public Father(String fn, String ln , String fatherName) {
+		super(fn, ln);
+		
+	}
+	
+	
+	
+}
