@@ -18,7 +18,7 @@ public class Student {
 	
 }
 
-class Teacher  extends Student{
+class Teacher extends Student{
 	int salary;
 	public Teacher(String firstName, String lastName, int SSN , int salary) {
 		super(firstName, lastName, SSN);

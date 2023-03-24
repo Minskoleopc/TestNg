@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import commom.com.BeforeMethods;
+import commom.com.Retry;
 
 
 // feature testcase (login)
@@ -16,7 +17,7 @@ import commom.com.BeforeMethods;
 
 @Test(groups= "userRegistration")
 public class testR5 extends BeforeMethods {
-	@Test(priority = 1, description = "This is login testcase",groups = "loginF")
+	@Test( retryAnalyzer = Retry.class ,priority = 1, description = "This is login testcase",groups = "loginF")
 	public void loginTest() {
 		System.out.println("Login successful");
 	}

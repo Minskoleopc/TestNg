@@ -44,7 +44,7 @@ public class testR9 extends BeforeMethodsTwo{
 		
 		driver.findElement(By.cssSelector("#user-name")).sendKeys(username);
 		driver.findElement(By.cssSelector("#password")).sendKeys(password);
-		driver.findElement(By.cssSelector("#login-button")).click();
+		
 		// step2
 		
 		// step3
