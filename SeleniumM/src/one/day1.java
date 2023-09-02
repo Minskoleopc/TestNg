@@ -15,6 +15,15 @@ public class day1 {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\ankurjain\\Desktop\\chromedriver\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
