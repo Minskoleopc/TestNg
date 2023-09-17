@@ -64,11 +64,13 @@ public class day13 {
 		
 		for(int i = 2 ; i <= totalRows ; i++) {
 			String text = driver.findElement(By.xpath("//*[@id=\"t01\"]/tbody/tr["+i+"]/td[1]")).getText();
+			//String text2 = driver.findElement(By.xpath("//*[@id=\"t01\"]/tbody/tr["+i+"]/td[2]")).getText();
 			System.out.println(text);
 			if(text.equals("Michael")) {
 				System.out.println("Test case pass ");
 				break;
 			}
+			
 		}
 		
 		
