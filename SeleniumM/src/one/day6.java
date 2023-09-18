@@ -58,8 +58,14 @@ public class day6 {
 //		String txt = driver.findElement(By.cssSelector("#contact_me > div > div:nth-child(1) > div > h2")).getText();
 //		System.out.println(txt);
 
-		Dimension qq = driver.findElement(By.cssSelector("#contact_me > div > div:nth-child(1) > div > h2")).getSize();
-		System.out.println(qq);
+//		Dimension qq = driver.findElement(By.cssSelector("#contact_me > div > div:nth-child(1) > div > h2")).getSize();
+//		System.out.println(qq);
+		
+		
+	
+		
+		
+		
 		
 		
 		
